@@ -1,0 +1,23 @@
+body {
+
+    background-color: white;
+    background: url(https://cdn.pixabay.com/photo/2016/06/05/07/59/stars-1436950_1280.jpg);
+    color: white;
+
+}
+
+.gif {
+
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color:rgba(240, 255, 255, 0);
+    color: white;
+    
+    
+    
+   
+    
+ 
+}
