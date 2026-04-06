@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,117 +8,230 @@
 </head>
 <body>
 
-    <form action="forms.php" method="get ">
+    <form method="get">
 
 
         <div class="login">
 
-            <label for="fname">Nome:</label>
-            <input type="text" id="fname" name="fname" placeholder="Name">
+        <table border="1">
 
-            <label for="lmail">Email Pessoal:</label>
-            <input type="email" id="lmail" name="lmail">
+            <thead>
+                <tr>
+                    <td>
 
-            <label for="lmail2">Email (patter):</label>
-            <input type="email" id="lmail2" name="lmail2">
-            
-            <label for="pword">Senha:</label>
-            <input type="text" id="pword" name="pword" placeholder="Password">
+                        
+                        
+                        <label for="fname">Nome:</label>
+                        <td>
 
-            <label for="idade">Idade:</label>
-            <input type="number" id="idade" name="idade">
+                            <input type="text" id="fname" name="fname" placeholder="Insira seu nome">
+                        </td>
+                    </td>
+                </tr>
+                        
+                    <tr>
+                        <td>
+                                <label for="lmail">Email Pessoal:</label>
+                            <td>
 
-            <label for="coment">Deixe um comentário:</label>
-            <input type="text" size="40" height="100px">
+                                <input type="email" id="lmail" name="lmail">
+                            </td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <label for="lmail2">Email (patter):</label>
+                            <td>
+                                
+                                <input type="email" id="lmail2" name="lmail2" placeholder="Digite seu email com @">
+                            </td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+
+                            <label for="pword">Senha:</label>
+                            <td>
+
+                                <input type="text" id="pword" name="pword" placeholder="Insira sua senha">
+                            </td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+
+                            <label for="idade">Idade:</label>   
+                            <td>
+
+                                <input type="idade" name="idade" id="">
+                            </td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"  >
+                            
+                            <label for="coment">Deixe um comentário:</label>
+                            
+                            
+                            <br>
+                            <textarea name="area" id="area" cols="50" rows="10"></textarea>
+                        </td>
+                    </tr>
+                    
+                    <br>
+                    <br>
+
+                    <tr>
+                        <td rowspan="2">
+
+                            <label for="Matéria">Matéria de interesse:</label>
+                            <br>
+                                <input type="checkbox" name="materia" id="materia">
+                                <label for="materia">Backend</label>
+                            <br>
+                                <input type="checkbox" name="materia2" id="materia2">   
+                                <label for="materia2">FrontEnd</label>
+                            <br>
+                                <input type="checkbox" name="materia3" id="materia3">
+                                <label for="materia3">FullStack</label>
+                            <br>
+                                <td>
+
+                                    <label for="viagem">Tipo de Vigem:</label>
+                            
+                            <br>    
+                                    <input type="radio" name="v1" id="v1">
+                                    <label for="ngc">Negócio</label>
+                            <br>
+                                    
+                                    <input type="radio" name="v1" id="v2">
+                                    <label for="ngc">Lazer</label>
+                            <br>       
+                                    <input type="radio" name="v1" id="v3">
+                                    <label for="ngc">Turismo</label>
+                            <br>        
+                                    <input type="radio" name="v1" id="v4">
+                                    <label for="ngc">Acadêmico</label> </td>
+                                </td>
+                           
+                            
+                        </td>
+                    </tr>
+                    <br>
+                    <br>
+
+
+                    
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+
+                            
+                        <label for="esp">Esporte favorito:</label>
+                        <select name="esp" id="esp">
+                            
+                            <option value="futebol">Futebol</option>
+                            <option value="basquete">Basquete</option>
+                            <option value="volei">Vôlei</option>
+                            <option value="tenis">Tênis</option>
+                            <option value="corrida">Corrida</option>
+                        </select>
+
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+
+                        <td>
+                             <label for="inv">Investimentos</label>
+                            <select name="inv" id="inv">
+                                
+                        
+                                
+                        <optgroup label="Baixo Risco">
+
+                            <option value="inv1">Poupança</option>
+                            <option value="inv2">CDB</option>
+                            <option value="inv3">Tesouro Direto</option>
+                        </optgroup>
+                       
+                      <optgroup label="Médio Risco">
+
+                          <option value="inv4">Fundos Imobiliários</option>
+                          <option value="inv5">CDI</option>
+                          <option value="inv6">DEBÊNTURES</option>
+                        </optgroup>
+                        <optgroup label="Alto Risco">
+
+                            <option value="inv7">Criptomoedas</option>
+                            <option value="inv8">Ações</option>
+                        </optgroup>
+                            </select>
+
+
+                        </td>
+                    </td>
+                    </tr>
+
+                    </select>
+                    <br>
+                    <br>
+                    
+                    <tr>
+                        <td>
+                            <br>
+                            
+                            <label for="col">Escolha uma cor:</label>
+                            <input type="color" name="color" id="col">
+                            
+                                
+                        </td>
+
+                        <td>
+                             <label for="arq">Selecione um arquivo:</label>
+                            <input type="file" name="arq" id="arq">
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="dahora">Data e Hora envio:</label>
+                            <input type="date" name="data" id="dahora">
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                    
+        </tbody>
+        <tfoot>
 
             <br>
-            <br>    
-
-            <label for="Matéria">Matéria de interesse:</label>
-            
-            <input type="checkbox" name="materia" id="materia">
-            <label for="materia">Backend</label>
-
-            <input type="checkbox" name="materia2" id="materia2">   
-            <label for="materia2">FrontEnd</label>
-
-            <input type="checkbox" name="materia3" id="materia3">
-            <label for="materia3">FullStack</label>
-
             <br>
-            <br>
+            <tr>
 
-            <label for="viagem">Tipo de Vigem:</label>
+                <td>
+                    <button>Enviar</button>
+                </td>
+                <td>
+                    <button>Limpar</button>
+                </td>
+            </tr>
 
-            <input type="checkbox" name="v1" id="v1">
-            <label for="ngc">Negócio</label>
-
-             <input type="checkbox" name="v2" id="v2">
-            <label for="ngc">Lazer</label>
-
-             <input type="checkbox" name="v3" id="v3">
-            <label for="ngc">Turismo</label>
-
-             <input type="checkbox" name="v4" id="v4">
-            <label for="ngc">Acadêmico</label>
-
-            <br>
-            <br>
-
-            <label for="esp">Esporte favorito:</label>
-            <select name="esp" id="esp">
-
-            <option value="futebol">Futebol</option>
-            <option value="basquete">Basquete</option>
-            <option value="volei">Vôlei</option>
-            <option value="tenis">Tênis</option>
-            <option value="corrida">Corrida</option>
-            </select>
-            <br>
-            <br>
-
-            <label for="inv">Investimentos</label>
-            <select name="inv" id="inv">
-
-                <option value="inv1">Poupança</option>
-                <option value="inv2">CDB</option>
-                <option value="inv3">Tesouro Direto</option>
-                <option value="inv4">Fundos Imobiliários</option>
-                <option value="inv5">CDI</option>
-                <option value="inv6">DEBÊNTURES</option>
-                <option value="inv7">Criptomoedas</option>
-                <option value="inv8">Ações</option>
-            </select>
-            <br>
-            <br>
-
-            <label for="col">Escolha uma cor:</label>
-            <input type="color" name="color" id="col">
-
-            <br>
-            <br>
-
-            <label for="arq">Selecione um arquivo:</label>
-            <input type="file" name="arq" id="arq">
-
-            <br>
-            <br>
-
-            <label for="dahora">Data e Hora envio:</label>
-            <input type="date" name="data" id="dahora">
-
-            <br>
-            <br>
-
-            <button>Enviar</button>
-
-            <button>Limpar</button>
-
-    
+        </tfoot>
         </div>
-
+        
+    </table>
     </form>
-
+    
     
 </body>
 </html>
