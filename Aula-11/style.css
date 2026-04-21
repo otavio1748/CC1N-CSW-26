@@ -1,0 +1,27 @@
+body {
+    background-color: #8edef7;
+    
+    color: #05b1bf;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.ocean {
+
+    background-color: #a2dcee;
+    height: auto;
+    width: auto;
+    border-radius: 30px;
+    
+}
+
+
+h1 {
+
+    color: #0664a4 ;
+}
+h2 {
+
+
+    color: #12a1e7;
+}
