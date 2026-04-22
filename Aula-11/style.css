@@ -1,0 +1,31 @@
+body {
+    background: #0088ff;
+background: linear-gradient(90deg,rgba(0, 136, 255, 1) 0%, rgba(43, 206, 255, 1) 19%, rgba(107, 233, 255, 1) 69%, rgba(0, 185, 209, 1) 100%);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.ocean {
+
+    background-color: #d0f8ff;
+    height: auto;
+    width: auto;    
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+    display: center ;
+    width: 800px;
+    height: 800px;
+    
+}
+
+
+h1 {
+
+    color: #0664a4 ;
+}
+h2 {
+
+
+    color: #12a1e7;
+}
