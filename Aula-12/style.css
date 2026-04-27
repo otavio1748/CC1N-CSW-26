@@ -1,0 +1,64 @@
+
+.aaa {
+
+    background-color: blue;
+    border-radius: 15px;
+    align-items: center;
+    text-align: center;
+    padding: 100px;
+    justify-content: center;
+    height: auto;
+    width: 1000px;
+    
+}
+
+button {
+
+    width: 250px;
+    height: 250px;
+    color: rgb(0, 0, 0);
+    background-color: white ;
+    
+
+}
+
+button:hover {
+
+   background-color: brown;
+ 
+}
+
+button:active {
+
+    color: blueviolet;
+}
+
+
+.nnn {
+
+    background-color: rgb(94, 255, 0);
+    align-items: center;
+    text-align: center;
+    padding: 100px;
+    justify-content: center;
+    height: auto;
+    width: 1000px;
+    border-radius: 10px;
+
+}
+
+.aa::before {
+    
+    content: '*';
+}
+
+.aa::after {
+
+    content: '*';
+}
+
+.site::after {
+
+    content: "\266A";
+    
+}
