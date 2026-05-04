@@ -1,0 +1,74 @@
+body {
+
+    background-color: rgb(199, 199, 199)  ;
+}
+
+.header   {
+
+display: flex;
+  
+}
+
+.aula {
+
+    flex-grow: 1;
+    color: aqua;
+    
+}
+.aula:hover {
+
+    text-decoration: underline;
+}
+
+
+
+.exe {
+
+    flex-grow: 1;
+    color:blueviolet;
+}
+
+.exe:hover {
+
+    text-decoration: underline;
+}
+
+.local {
+
+    flex-grow: 1;
+    color: red;
+}
+
+.local:hover {
+
+    text-decoration: underline;
+}
+
+.nav {
+
+    display:flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.cap3 {
+
+    flex-grow: 2;
+
+}
+
+.cap3:hover {
+
+    color: blue;
+}
+
+.cap4 {
+
+    justify-content: right;
+}
+
+.main {
+
+    display: flex;
+    justify-content: flex-end;
+}
